@@ -1,6 +1,6 @@
 {
 	"name": "sveltekit-typescript-boilerplate",
-	"description": "Minimalistic boilerplate for SvelteKit projects in TypeScript",
+	"description": "Boilerplate for SvelteKit projects in TypeScript",
 	"version": "0.0.0",
 	"author": {
 		"name": "Слава Соколов",

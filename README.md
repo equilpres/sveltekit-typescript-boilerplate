@@ -1,6 +1,6 @@
 ### SvelteKit TypeScript Boilerplate
 
-Minimalistic boilerplate for SvelteKit projects in TypeScript.
+Boilerplate for SvelteKit projects in TypeScript
 
 #### Prerequisites
 
@@ -92,4 +92,4 @@ Minimalistic boilerplate for SvelteKit projects in TypeScript.
 
 #### License
 
-This project is under the MIT License. See [LICENSE](LICENSE) for details.
+[MIT](LICENSE)
