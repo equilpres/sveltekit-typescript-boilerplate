@@ -1,0 +1,7 @@
+{
+	"tabWidth": 8,
+	"printWidth": 160,
+	"useTabs": true,
+	"singleQuote": true,
+	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"]
+}

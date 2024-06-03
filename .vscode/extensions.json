@@ -1,0 +1,16 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"EditorConfig.EditorConfig",
+		"Nixon.env-cmd-file-syntax",
+		"usernamehw.errorlens",
+		"dbaeumer.vscode-eslint",
+		"github.vscode-github-actions",
+		"wix.vscode-import-cost",
+		"csstools.postcss",
+		"esbenp.prettier-vscode",
+		"streetsidesoftware.code-spell-checker-russian",
+		"svelte.svelte-vscode",
+		"bradlc.vscode-tailwindcss"
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll": "explicit",
+		"source.organizeImports": "explicit",
+		"source.sortMembers": "explicit"
+	},
+	"editor.tabSize": 8,
+	"editor.wordWrap": "on",
+
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+
+	"svelte.enable-ts-plugin": true,
+
+	"tailwindCSS.experimental.classRegex": [["clsx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]],
+
+	"cSpell.words": ["equilpres", "tailwindcss"]
+}
