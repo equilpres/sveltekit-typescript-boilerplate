@@ -1,16 +1,31 @@
 {
 	"recommendations": [
+		// Code quality and linting
+		"dbaeumer.vscode-eslint",
+		"wix.vscode-import-cost",
+		"esbenp.prettier-vscode",
+		"usernamehw.errorlens",
+
 		"streetsidesoftware.code-spell-checker",
+		"streetsidesoftware.code-spell-checker-russian",
+
+		// Configuration file
 		"EditorConfig.EditorConfig",
 		"Nixon.env-cmd-file-syntax",
-		"usernamehw.errorlens",
-		"dbaeumer.vscode-eslint",
+
+		// GitHub and CI/CD
 		"github.vscode-github-actions",
-		"wix.vscode-import-cost",
+
+		// CSS and PostCSS
 		"csstools.postcss",
-		"esbenp.prettier-vscode",
-		"streetsidesoftware.code-spell-checker-russian",
+
+		// Svelte
 		"svelte.svelte-vscode",
-		"bradlc.vscode-tailwindcss"
+
+		// Tailwind CSS
+		"bradlc.vscode-tailwindcss",
+
+		// AI assistant
+		"Supermaven.supermaven"
 	]
 }

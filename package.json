@@ -15,7 +15,7 @@
 	"scripts": {
 		"dev": "vite dev --host ::",
 		"build": "pnpm sync && pnpm lint && vite build",
-		"docker::build": "docker build --no-cache --progress=plain -t sveltekit-typescript-boilerplate .",
+		"docker:build": "docker build --no-cache --progress=plain -t sveltekit-typescript-boilerplate .",
 		"preview": "vite preview --host ::",
 		"start": "node ./build/index.js",
 		"sync": "svelte-kit sync",
