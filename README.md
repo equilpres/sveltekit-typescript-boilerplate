@@ -5,7 +5,7 @@ Boilerplate for SvelteKit projects in TypeScript
 #### Prerequisites
 
 - [Node.js](https://nodejs.org/) (^22.3)
-- [pnpm](https://pnpm.io/) (^9.4)
+- [pnpm](https://pnpm.io/) (^8.15)
 - [Docker](https://www.docker.com/) (optional)
 
 #### Getting Started

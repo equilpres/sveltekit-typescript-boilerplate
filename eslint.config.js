@@ -4,7 +4,8 @@ import svelte from 'eslint-plugin-svelte';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+/** @type {Array<import('eslint').Linter.FlatConfig>} */
+export default [
 	eslint.configs.recommended, //
 	...tseslint.configs.strict,
 	...svelte.configs['flat/recommended'],
@@ -14,19 +15,19 @@ export default tseslint.config(
 		languageOptions: {
 			globals: {
 				...globals.browser,
-				...globals.node
-			}
+				...globals.node,
+			},
 		},
 	},
 	{
 		files: ['**/*.svelte'],
 		languageOptions: {
 			parserOptions: {
-				parser: tseslint.parser
-			}
-		}
+				parser: tseslint.parser,
+			},
+		},
 	},
 	{
-		ignores: ['./.svelte-kit', './build'],
+		ignores: ['.svelte-kit', 'build'],
 	},
-);
+];
