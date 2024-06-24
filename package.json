@@ -9,7 +9,7 @@
 	},
 	"type": "module",
 	"engines": {
-		"node": "^20.15"
+		"node": "^20.15 || ^20.14"
 	},
 	"packageManager": "pnpm@9.4.0",
 	"license": "MIT",
