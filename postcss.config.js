@@ -1,3 +1,5 @@
+// @ts-check
+
 /** @type {import('postcss-load-config/src/index.d.ts').Config} */
 const config = {
 	plugins: {

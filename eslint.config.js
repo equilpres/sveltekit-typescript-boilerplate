@@ -18,6 +18,9 @@ export default [
 				...globals.node,
 			},
 		},
+		rules: {
+			'@typescript-eslint/explicit-function-return-type': 'error',
+		},
 	},
 	{
 		files: ['**/*.svelte'],

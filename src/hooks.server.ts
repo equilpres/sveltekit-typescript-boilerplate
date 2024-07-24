@@ -1,8 +1,9 @@
 import { dev } from '$app/environment';
 
+import type { Handle } from '@sveltejs/kit';
 import { minify, type Options } from 'html-minifier-terser';
 
-export function handle({ event, resolve }) {
+export function handle({ event, resolve }): ReturnType<Handle> {
 	let page = '';
 
 	return resolve(event, {

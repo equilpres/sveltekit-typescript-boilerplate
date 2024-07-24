@@ -7,7 +7,7 @@
 	$: minutes = date.getMinutes();
 	$: seconds = date.getSeconds();
 
-	const pad = (value: number) => {
+	const pad = (value: number): string => {
 		return `${value}`.padStart(2, '0');
 	};
 
@@ -16,7 +16,7 @@
 			date = new Date();
 		}, 100);
 
-		return () => {
+		return (): void => {
 			clearInterval(interval);
 		};
 	});
