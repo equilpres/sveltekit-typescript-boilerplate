@@ -18,9 +18,6 @@ export default [
 				...globals.node,
 			},
 		},
-		rules: {
-			'@typescript-eslint/explicit-function-return-type': 'error',
-		},
 	},
 	{
 		files: ['**/*.svelte'],
@@ -28,6 +25,12 @@ export default [
 			parserOptions: {
 				parser: tseslint.parser,
 			},
+		},
+	},
+	{
+		files: ['**/*.{ts,svelte}'],
+		rules: {
+			'@typescript-eslint/explicit-function-return-type': 'error',
 		},
 	},
 	{
